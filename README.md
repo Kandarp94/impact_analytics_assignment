@@ -21,10 +21,8 @@ Here the second argument 4 is optional which is the number consecutive days stud
 
 
 <h2>Approach</h2>
-On any given day there could be two possibilties either you attend the classes or you miss the classes. I am generating all possible permutation of attending classes (i.e. 2 ^ No_of_days).
-
-Next I am filtering all permutation which has 4 or more consecutive days of absence.
-
-To compute probability I am simply dividing count of invalid permutation by total permutation.
+2 ^ N = combination of the number of ways to attend classes over N days.</br>
+consecutive four A = AAAA means that you won't be able to attend your graduation ceremony.</br>
+Nth day is A then you miss your graduation ceremony.
 
 <h3>Time Complexity:</h3> O(2 ^ N) where N is number of days.
